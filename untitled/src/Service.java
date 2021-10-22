@@ -10,8 +10,4 @@ public class Service {
         return i1*i2;
     }
 
-    public void testNeedToDelete() {
-        System.out.println("delete");
-    }
-
 }
