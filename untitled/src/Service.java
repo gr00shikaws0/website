@@ -1,11 +1,11 @@
 public class Service {
 
-    public void print() {
-        System.out.println("Hello");
+    public void printHello(String name) {
+        System.out.println(name.toUpperCase());
     }
 
-    public int sum(int i1, int i2) {
-        return i1 + i2;
+    public int mult(int i1, int i2) {
+        return i1*i2;
     }
 
 }
