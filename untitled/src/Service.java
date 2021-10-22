@@ -14,4 +14,8 @@ public class Service {
         System.out.println("delete");
     }
 
+    public void mytes() {
+        System.out.println("");
+    }
+
 }
